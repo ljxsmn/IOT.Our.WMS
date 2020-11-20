@@ -34,7 +34,7 @@ namespace WMS.UI.API
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public IActionResult DHDJ(int PageIndex = 1, int PageSize = 10,string BH="", string PL = "", string GYS = "", int State=null, string Peo = "",)
+        public IActionResult DHDJ(int PageIndex = 1, int PageSize = 10,string BH="", string PL = "", string GYS = "", int State=0, string Peo = "")
         {
             List<ViewModel> list = _jdal.DHDJ();
             list = list.Where(p => p.Acode.Contains(BH)).ToList();
