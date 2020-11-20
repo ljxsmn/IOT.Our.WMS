@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WMS.UI</name>
+    </assembly>
+    <members>
+        <member name="T:WMS.UI.API.ChenYJController">
+            <summary>
+            到货管理
+            </summary>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.#ctor(WMS.DAL.AllInterfaces.ICjDal)">
+            <summary>
+            依赖注入
+            </summary>
+            <param name="cjDal"></param>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.DHDJ(System.Int32,System.Int32)">
+            <summary>
+            到货登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.DHJL">
+            <summary>
+            到货记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.DHXQCP">
+            <summary>
+            到货登记详情（产品）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.DHXQYL">
+            <summary>
+            到货登记详情（原料）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.KJDH">
+            <summary>
+            快捷到货
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.KJDJXQ(System.Int32)">
+            <summary>
+            快捷到货详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.UPdete(WMS.ENTITY.ViewModel.ViewModel)">
+            <summary>
+            快捷到货编辑
+            </summary>
+            <param name="vm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.FanT(System.Int32)">
+            <summary>
+            快捷到货反填
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.KJXQ(System.Int32)">
+            <summary>
+            快捷到货详情
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.BangGYS">
+            <summary>
+            绑定供货商
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.ChenYJController.BangPL">
+            <summary>
+            绑定产品品类
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WMS.UI.API.RoleController">
+            <summary>
+            用户管理模块
+            </summary>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.#ctor(WMS.DAL.AllInterfaces.IRoleMangeDal)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dal"></param>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.Register(System.String)">
+            <summary>
+            管理员加密注册
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="name"></param>
+            <param name="pwd"></param>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.GetRoles(System.String)">
+            <summary>
+            根据登录名获取角色
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.GetMenu(System.Int32)">
+            <summary>
+            通过角色来获取父级菜单
+            </summary>
+            <param name="rdid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.ZiMenus(System.Int32)">
+            <summary>
+            获取子级菜单
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.ShowAllo(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            显示调拨表所有信息
+            </summary>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.ShowReser">
+            <summary>
+            绑定库区下拉
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.ShowEdit(System.Int32)">
+            <summary>
+            详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.DeleteReser(System.String)">
+            <summary>
+            删除调拨表数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.Guanbi(System.String)">
+            <summary>
+            调拨表数据(关闭)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.AddResert(System.String)">
+            <summary>
+            添加调拨表
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.API.RoleController.AddAllotedit(System.String)">
+            <summary>
+            添加调拨物品
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WMS.UI.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:WMS.UI.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:WMS.UI.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            CreateHostBuilder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WMS.UI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WMS.UI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WMS.UI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:WMS.UI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WMS.UI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:WMS.UI.Startup.DatetimeJsonConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WMS.UI.Startup.DatetimeJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+            <param name="typeToConvert"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WMS.UI.Startup.DatetimeJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.DateTime,System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <param name="value"></param>
+            <param name="options"></param>
+        </member>
+    </members>
+</doc>

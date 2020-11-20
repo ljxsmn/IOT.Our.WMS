@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.UI", "WMS.UI\WMS.UI.csproj", "{4BE28837-A6E6-4794-8CCE-89281E054991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.DAL", "WMS.DAL\WMS.DAL.csproj", "{FB7D40D3-B275-4DAB-ABD1-AEDA1527255B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.ENTITY", "WMS.ENTITY\WMS.ENTITY.csproj", "{0F321AB3-EE37-423D-8862-EF7DBEA3E852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE28837-A6E6-4794-8CCE-89281E054991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE28837-A6E6-4794-8CCE-89281E054991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE28837-A6E6-4794-8CCE-89281E054991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE28837-A6E6-4794-8CCE-89281E054991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7D40D3-B275-4DAB-ABD1-AEDA1527255B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7D40D3-B275-4DAB-ABD1-AEDA1527255B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7D40D3-B275-4DAB-ABD1-AEDA1527255B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7D40D3-B275-4DAB-ABD1-AEDA1527255B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F321AB3-EE37-423D-8862-EF7DBEA3E852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F321AB3-EE37-423D-8862-EF7DBEA3E852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F321AB3-EE37-423D-8862-EF7DBEA3E852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F321AB3-EE37-423D-8862-EF7DBEA3E852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4C40ABA-701B-4A6A-895F-F24CF9921D70}
+	EndGlobalSection
+EndGlobal
